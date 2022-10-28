@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoProject" duration-ms="24435" started-at="2021-12-19T15:20:18Z" finished-at="2021-12-19T15:20:42Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="24435" started-at="2021-12-19T15:20:18Z" finished-at="2021-12-19T15:20:42Z">
+      <class name="com.sample.test.demo.tests.DemoTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sample.test.demo.tests.DemoTest@370736d9]" name="init" is-config="true" duration-ms="5775" started-at="2021-12-19T15:20:18Z" finished-at="2021-12-19T15:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="wetherAPIValidData()[pri:0, instance:com.sample.test.demo.tests.DemoTest@370736d9]" name="wetherAPIValidData" duration-ms="14264" started-at="2021-12-19T15:20:24Z" description="Validate API with Valid city name" finished-at="2021-12-19T15:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wetherAPIValidData -->
+        <test-method status="PASS" signature="wetherAPIInvalidData()[pri:1, instance:com.sample.test.demo.tests.DemoTest@370736d9]" name="wetherAPIInvalidData" duration-ms="679" started-at="2021-12-19T15:20:38Z" description="Validate API with InValid city name" finished-at="2021-12-19T15:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wetherAPIInvalidData -->
+        <test-method status="PASS" signature="bookFlight()[pri:2, instance:com.sample.test.demo.tests.DemoTest@370736d9]" name="bookFlight" duration-ms="2965" started-at="2021-12-19T15:20:38Z" description="Book an Fligh" finished-at="2021-12-19T15:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.DemoTest@370736d9]" name="tearDown" is-config="true" duration-ms="721" started-at="2021-12-19T15:20:41Z" finished-at="2021-12-19T15:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.test.demo.tests.DemoTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- DemoProject -->
+</testng-results>
